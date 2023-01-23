@@ -1,0 +1,55 @@
+*{ 
+    margin: 0px;
+}
+
+#sidebar {
+	/*Strictly Necessary */
+	position:fixed; 
+	height: 100%;
+	width:15%;
+	margin: 0px;  
+
+  /*Aesthetics*/
+  background: #1992d4;
+}
+
+
+#mainHeader {
+	/*Strictly Necessary */
+	width:85%; 
+	float: right;
+   
+
+	/*Aesthetics*/
+}
+
+header {
+	/*Strictly Necessary */
+	position: fixed;
+	width: 85%;	
+	height: 100px; /*Adjust the hight to your purposes*/
+	
+	/*Aesthetics*/
+	background: white;
+	
+}
+
+.ContentBox{
+	margin-top: 150px; /*The height of the   header*/
+	display:block;
+	flex-flow: row wrap;
+} 
+
+main {
+    /*Aesthetics*/
+	 background: #e2e8f0; 
+	 padding: 20px;
+}
+
+main {
+
+  height: 100vh;
+  order: 1;
+  flex: 1 1 auto; 
+	
+}
